@@ -58,7 +58,7 @@ set maxplayers=126
 set saveturns=1
 set scorelog=1
 set timeout=82800
-set unitwaittime=36000
+set unitwaittime=37000
 metamessage "LT34 | More info: http://longturn.org/game/LT34/"
 metapatches longturn
 
