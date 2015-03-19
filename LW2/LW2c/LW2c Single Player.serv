@@ -1,4 +1,4 @@
-rulesetdir LW2
+rulesetdir LW2c Single Player
 
 set mapsize="PLAYER"
 set generator="FRACTAL"
@@ -34,26 +34,26 @@ set scorelog=1
 set citymindist=5
 set dispersion=0
 set startunits=ccccwwx
-set unitwaittime=36000
-set aifill=0
+# set unitwaittime=36000
+set aifill=12
 set techlevel=0
-set allowtake=""
+# set allowtake=""
 set spacerace=enabled
-set timeout=90000
+# set timeout=90000
 set revolen=2
 set trading_city=disabled
 set foggedborders=enabled
-set contactturns=0
+set contactturns=100
 set ec_turns=9
 set ec_max_size=5000
 set ec_chat=enabled
 set ec_info=enabled 
 set stats_script=/home/dude/stats/insert.pl
-set compresstype plain
-set cmdlevel info
-metamessage "LW2c | More info: http://longturn.org/game/LW2/"
-metapatches longturn
+# set compresstype plain
+# set cmdlevel info
+# metamessage "LW2c | More info: http://longturn.org/game/LW2/"
+# metapatches longturn
 
 
-syncturn
-start
+# syncturn
+# start
