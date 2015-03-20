@@ -1,4 +1,4 @@
-rulesetdir LT33
+rulesetdir LT33 Single Player
 
 # map
 set alltemperate=disabled
@@ -41,10 +41,10 @@ set trademindist=999
 set trading_city=disabled
 
 # technical
-set aifill=0
-set allowtake=""
-set cmdlevel info
-set compresstype plain
+set aifill=40
+# set allowtake=""
+# set cmdlevel info
+# set compresstype plain
 set ec_chat=enabled
 set ec_info=enabled 
 set ec_max_size=5000
@@ -52,11 +52,11 @@ set ec_turns=9
 set maxplayers=126
 set saveturns=1
 set scorelog=1
-set timeout=82800
-set unitwaittime=36000
-metamessage "LT33 | More info: http://longturn.org/game/LT33/"
-metapatches longturn
+# set timeout=82800
+# set unitwaittime=36000
+# metamessage "LT33 | More info: http://longturn.org/game/LT33/"
+# metapatches longturn
 
 
-syncturn
-start
+# syncturn
+# start
