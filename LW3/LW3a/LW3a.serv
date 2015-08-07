@@ -36,12 +36,12 @@ set scorelog=1
 set citymindist=5
 set dispersion=0
 set startunits=cccccccwwx
-set unitwaittime=36000
-set aifill=0
+# set unitwaittime=36000
+set aifill=6
 set techlevel=0
-set allowtake=""
+# set allowtake=""
 set spacerace=enabled
-set timeout=90000
+# set timeout=90000
 set revolen=2
 set trading_city=disabled
 set foggedborders=enabled
@@ -51,11 +51,11 @@ set ec_max_size=5000
 set ec_chat=enabled
 set ec_info=enabled
 set stats_script=/home/dude/stats/insert.pl
-set compresstype plain
-cmdlevel info
-metamessage "LW3a | More info: http://longturn.org/game/LW3/"
-metapatches longturn
+# set compresstype plain
+# cmdlevel info
+# metamessage "LW3a | More info: http://longturn.org/game/LW3/"
+# metapatches longturn
 
 
-syncturn
-start
+# syncturn
+# start
